@@ -113,7 +113,7 @@ python-dateutil
 python-json-logger
 pytz
 pytz-deprecation-shim
-pywin32
+pywin
 pywinpty
 PyYAML
 pyzmq
