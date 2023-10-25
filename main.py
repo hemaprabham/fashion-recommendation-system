@@ -13,6 +13,7 @@ import cv2
 feature_list = np.array(pickle.load(open('featurevector.pkl','rb')))
 filenames = pickle.load(open('filenames.pkl','rb'))
 
+
 model = ResNet50(weights='imagenet',include_top=False,input_shape=(224,224,3))
 model.trainable = False
 
@@ -21,7 +22,7 @@ model = tensorflow.keras.Sequential([
     GlobalMaxPooling2D()
 ])
 
-st.title('Man & Women Fashion Recommender System')
+st.title('Fashion Recommender System')
 
 
 def save_uploaded_file(uploaded_file):
