@@ -89,7 +89,6 @@ pandocfilters
 parso
 pickleshare
 Pillow
-pipreqs
 platformdirs
 prometheus-client
 prompt-toolkit
